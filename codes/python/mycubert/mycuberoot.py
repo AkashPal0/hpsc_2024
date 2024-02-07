@@ -17,6 +17,6 @@ def mycuberoot(x):
     return s
 
 if __name__ == '__main__':
-    x = 27
+    x = int(input('Enter a number: '))
     print('The cube root of', x, 'is', mycuberoot(x))
 
